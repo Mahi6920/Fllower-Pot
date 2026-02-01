@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    background-color: aqua;
+    color: darkmagenta;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+
+.navbar button {
+    background-color: black;
+    color: white;
+    width:80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: red;
+    color: black;
+    border: 2px solid plum;
+}
+
+.container {
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+
+.sidebar {
+    width: 250px;
+    height: auto;
+    background-color: rgb(138, 214, 185);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 50px;
+    
+    padding: 20px;
+}
+
+.sidebar a:hover {
+    color: black;
+}
+
+
+.sidebar button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #111;
+    color: white;  
+}
+
+.content {
+    flex: 1;
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    flex-wrap: wrap;
+
+    /* margin-top: 10px; */
+
+}
+
+.card {
+    height: 47vh;
+    background-color: rgb(237, 179, 179);
+    width: 330px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+
+    margin-right: 2px;
+    /* margin-bottom: 10px; */
+}   
+
+img {
+    height: 32vh;
+    width: 280px;
+    border-radius: 2px;
+    border: 2px solid yellow;
+}
+
+h3 {
+    background-color: antiquewhite;
+    color: rgb(193, 124, 21);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttons button {
+    width: 120px;
+    height: 25px;
+
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons button:hover {
+    background-color: rgb(210, 228, 161);
+    color: black;
+    border: 2px solid gray;
+}
+
+.buttons button:active {
+    background-color: yellow;
+    color: yellowgreen;
+}
+
+.about {
+    height: 300px;
+
+    background-color: #ccc;
+    color: red;
+}
